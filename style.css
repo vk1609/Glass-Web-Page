@@ -1,0 +1,134 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+
+main {
+    min-height: 100vh;
+    background: linear-gradient(to right top, #666666, #e95f5f);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.glass {
+    display: flex;
+    background: black;
+    min-height: 80vh;
+    width: 70%;
+    background: linear-gradient(to right bottom, rgba(187, 183, 183, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 1rem;
+    z-index: 3;
+    backdrop-filter: blur(2rem);
+}
+
+.circle1,
+.circle2 {
+    background: black;
+    background: linear-gradient(to right bottom, rgba(187, 183, 183, 0.7), rgba(255, 255, 255, 0.3));
+    height: 15rem;
+    width: 15rem;
+    position: absolute;
+    z-index: 2;
+    border-radius: 50%;
+}
+.circle3,
+.circle4{
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    z-index: 2;
+    border-radius: 50%;
+    background-color: blanchedalmond;
+
+}
+.circle5,
+.circle6{
+    height: 12rem;
+    width: 12rem;
+    position: absolute;
+    z-index: 2;
+    border-radius: 50%;
+    background-color: rgb(166, 243, 142);
+
+}
+.circle3{
+    top: 19%;;
+    left: 12%;
+    background: linear-gradient(to right bottom, rgba(187, 183, 183, 0.7), rgba(238, 126, 126, 0.3));
+}
+.circle4{
+    top: 19%;;
+    left: 8%;
+    background: linear-gradient(to right bottom, rgba(187, 183, 183, 0.7), rgba(255, 255, 255, 0.3));
+}
+.circle5{
+    bottom: 5%;
+    right: 17%;
+    background: linear-gradient(to right bottom, rgba(187, 183, 183, 0.7), rgba(255, 255, 255, 0.3));
+
+}
+.circle6{
+    bottom: 14%;
+    right: 10%;
+    background: linear-gradient(to right bottom, rgba(187, 183, 183, 0.7), rgba(255, 255, 255, 0.3));
+
+}
+
+.circle1 {
+    top: 5%;
+    left: 10%;
+}
+
+.circle2 {
+    bottom: 5%;
+    right: 10%;
+}
+
+.pro-image {
+    border-radius: 50%;
+}
+
+.dashboard {
+    background: linear-gradient(to right bottom, rgba(187, 183, 183, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 1rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.link {
+    display: flex;
+    margin: 2rem 0rem;
+    padding: 1rem 5rem;
+    align-items: center;
+}
+
+.link h2 {
+    padding: 0rem 2rem;
+}
+
+.pro {
+    background: linear-gradient(to right top, #cfc8c8, #e49a9a);
+    border-radius: 1rem;
+    color: white;
+    padding: 0.5rem;
+    
+
+}
+
+.games {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 2;
+}
+
